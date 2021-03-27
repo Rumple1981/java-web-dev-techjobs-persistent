@@ -5,9 +5,12 @@ import java.util.Objects;
 
 public abstract class AbstractEntity {
 
+// variables
     private int id;
 
     private String name;
+
+//  Methods: getters & setters
 
     public int getId() {
         return id;
@@ -20,6 +23,8 @@ public abstract class AbstractEntity {
     public void setName(String name) {
         this.name = name;
     }
+
+//  Methods: overrides
 
     @Override
     public String toString() {
